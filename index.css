@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #f9f9f9;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.navbar a.active {
+    font-weight: bold;
+}
+
+.cards-cont {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 95%;
+
+}
+
+.card {
+    border-width: 600;
+    height: 550px;
+    padding: 20px;
+    margin: 15px 10px;
+    background-color: #b9b9b9;
+    border-radius: 5px;
+}
+
+.card p {
+    font-size: 40px;
+    color: #232121;
+    margin-bottom: 15px;
+}
+
+.adoptbutton {
+    padding: 25px 50px;
+    background-color: #f5e1da;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 325px;
+    
+}
+
+.donatebutton {
+    padding: 25px 50px;
+    background-color: #f5e1da;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 100px;
+    right: 325px;
+    
+}
